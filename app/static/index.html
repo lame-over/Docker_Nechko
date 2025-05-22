@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FastAPI + Firebase Hosting</title>
+</head>
+<body>
+    <h1>Hello from Firebase Hosting!</h1>
+    <script>
+        fetch("/items/42?q=test")
+            .then(res => res.json())
+            .then(data => console.log(data));
+    </script>
+</body>
+</html>
