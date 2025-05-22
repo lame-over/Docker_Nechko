@@ -22,7 +22,7 @@ jobs:
       - name: Run tests
         run: |
           cd app
-          pytest -v
+          pytest app/tests/ -v
 
   build-and-push-docker:
     needs: test
