@@ -21,7 +21,7 @@ jobs:
           pip install pytest
       - name: Run tests
         run: |
-          pytest app/tests/ -v
+          pytest tests/ -v
 
   build-and-push-docker:
     needs: test
