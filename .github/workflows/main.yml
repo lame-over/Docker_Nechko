@@ -38,7 +38,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: your-dockerhub-username/fastapi-app:latest
+          tags: lamerover1/fastapi-app:latest
 
   deploy-to-firebase:
     needs: build-and-push-docker
